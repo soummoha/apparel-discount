@@ -1,0 +1,34 @@
+product:
+  brands:
+  - discount: 10
+    name: Wrangler
+  - discount: 20
+    name: Arrow
+  - discount: 60
+    name: Vero Moda
+  - discount: 0
+    name: UCB
+  - discount: 5
+    name: Adidas
+  - discount: 20
+    name: Provogue
+  categories:
+  - discount: 0
+    name: Men's wear
+    subcategories:
+    - discount: 0
+      name: Shirts
+    - discount: 0
+      name: Trousers
+      subcategories:
+      - discount: 30
+        name: Casuals
+    - discount: 20
+      name: Jeans
+  - discount: 50
+    name: Women's wear
+    subcategories:
+    - discount: 0
+      name: Dresses
+    - discount: 0
+      name: Footwear
