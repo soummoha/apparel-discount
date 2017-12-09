@@ -14,6 +14,6 @@ java -jar -Dspring.profiles.active=prod apparel-discount-0.0.1-SNAPSHOT.jar
 
 ### IDE
 
-1. Set run configuration to "prod".
+1. Set run configuration profile to "prod".
 2. Run as spring boot application
 
