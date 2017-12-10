@@ -18,8 +18,7 @@ java -jar -Dspring.profiles.active=prod apparel-discount-0.0.1-SNAPSHOT.jar
 2. Run as spring boot application
   
 After starting the application when the message appear  
-"Please enter a valid inventory input or ctrl+z to exit".  
-
+#### "Please enter a valid inventory input or ctrl+z to exit".
 Enter Input:-  
 5  
 1,Arrow,Shirts,800  
@@ -29,9 +28,8 @@ Enter Input:-
 5,UCB,Shirts,1500  
 
 You will receive a message:-  
-"Products added to inventory"  
-"Please enter a valid input to generate bills of products or ctrl+z to exit"   
-
+#### "Products added to inventory"
+#### "Please enter a valid input to generate bills of products or ctrl+z to exit"
 Enter Input:-  
 2  
 1,2,3,4  
