@@ -14,7 +14,7 @@ import com.sg.shop.model.Category;
 
 /**
  * The configuration class reads all the product categories configurations from
- * <file>appliacation.yml<file>
+ * <file>application.yml<file>
  *
  */
 @ConfigurationProperties(prefix = "product")
@@ -48,7 +48,7 @@ public class CategoryConfiguration {
 			int categoryDiscount = category.getDiscount();
 			category.setDiscount(ancestorDiscount + categoryDiscount);
 			categoryDiscountMap.put(category.getName(), category.getDiscount());
-			updateAncestorDiscount(categoryDiscount, category.getSubcategories());
+			updateAncestorDiscount(category.getDiscount(), category.getSubcategories());
 		});
 	}
 
