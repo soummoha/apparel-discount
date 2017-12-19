@@ -47,7 +47,7 @@ public class ProductInputProcessor implements InputProcessor {
 			
 			String userInput = scanner.nextLine();
 			
-			if (userInput.isEmpty() || !userInput.contains(",")) {
+			if (userInput.isEmpty()) {
 				return;
 			}
 			
