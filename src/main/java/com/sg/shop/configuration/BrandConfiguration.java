@@ -14,7 +14,7 @@ import com.sg.shop.model.Brand;
 
 /**
  * The configuration class reads all the product brand configurations from
- * <file>appliacation.yml<file>
+ * <file>application.yml<file>
  *
  */
 
